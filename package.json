@@ -1,0 +1,16 @@
+{
+  "name": "aulas_matheus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "20171016.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console-menu": "^0.1.0"
+  }
+}

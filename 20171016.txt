@@ -1,0 +1,33 @@
+
+const tip01 = {
+    destino_pais: 'Tailândia'
+    destino_cidade:
+    origem_pais: 'Brasil'
+    origem_cidade:
+    sugestao: 'Compre roupas sob medida no começo da viagem, busque-as prontas no final'
+}
+const tip02 = {
+    destino_pais: 'Tailândia'
+    destino_cidade:
+    origem_pais: 'Brasil'
+    origem_cidade:
+    sugestao: 'Ande de elefante!'
+}
+const tip03 = {
+    destino_pais: 'França'
+    destino_cidade: 'Paris'
+    origem_pais: 'Brasil'
+    origem_cidade: 
+    sugestao: 'Ande de elefante!'
+}
+
+const arrayOfTips = [ tip01, tip02, tip03 ]
+
+const result = arrayOfTips.find(tip => tip.destino_pais === 'Tailândia')
+
+console.log(result)
+
+
+
+
+
